@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+body .header {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+  width: 100%;
+  align-items: center;
+  flex: 1; 
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.header .logo-container {
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center;
+}
+
+.logo { 
+  height: 100px;
+}
+
+.barge-container {
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.barge {
+  height: 500px;
+  border-radius: 2px;
+}
+
+.back-to-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
