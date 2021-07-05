@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  width: 100%
 }
 
 body {
@@ -53,8 +54,15 @@ body .header {
   justify-content: center;
 }
 
+.logo-container h1{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo-big {
-  height: 700px;
+  height: 70%;
 }
 
 .coming {
