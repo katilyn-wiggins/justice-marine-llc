@@ -1,28 +1,37 @@
 import React from 'react';
-import logo from '../logo.png';
 import JMCarousel from '../components/Carousel';
-import Services from '../components/Services';
-
-// import About from '../components/About'
-// import Contact from '../components/Contact.jsx'
-// import QuickLinks from '../components/QuickLinks'
-// import Barges from '../components/Barges.jsx'
+import ServicesBlurb from '../components/blurbs/ServicesBlurb';
+import Header from './Header'
+import barge1 from '../images/barge1.jpg';
+import Footer from './Footer'; 
+import AboutBlurb from '../components/blurbs/AboutBlurb';
+import ContactBlurb from '../components/blurbs/ContactBlurb';
 
 const HomePage = () => (
   <div className="home-page">
-    <div className="header">
-      <div className="logo-container">
-        <img id="logo" className="logo" alt="Justice Marine LLC" src={logo} />
+    <Header />
+    <JMCarousel /> 
+    <div className="main-blurb">
+      Justice Marine is a full service barge leasing company. We provide a variety of services from dock building to transport.</div>
+    <div className="squares-container">
+      <div className="square1">
+        <AboutBlurb /> 
+      </div>
+      <div className="sqaure2"><img src={barge1} alt="barge" className="picture" /></div>
+    </div>
+    <div className="squares-container">
+      <div className="sqaure2"><img src={barge1} alt="barge" className="picture" /></div>
+      <div className="square1">
+        <ServicesBlurb /> 
       </div>
     </div>
-    <JMCarousel />
-    <Services />
-
-    {/* <QuickLinks />
-    <About />
-    <Barges />
-    <Contact /> */}
-
+    <div className="squares-container">
+      <div className="square1">
+        <ContactBlurb /> 
+      </div>
+      <div className="sqaure2"><img src={barge1} alt="barge" className="picture" /></div>
+    </div>
+    <Footer />
     <a className="back-to-top" alt="top of page" href="#logo">Back to Top</a>
   </div>
 
