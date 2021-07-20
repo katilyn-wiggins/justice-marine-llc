@@ -11,7 +11,7 @@ const HomePage = () => (
   <div className="home-page">
     <Header />
     <JMCarousel /> 
-    <div className="main-blurb">
+    <div className="main-blurb" id="mission">
       Justice Marine is a full service barge leasing company. We provide a variety of services from dock building to transport.</div>
     <div className="squares-container">
       <div className="square1">

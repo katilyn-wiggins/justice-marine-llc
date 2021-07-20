@@ -7,7 +7,7 @@ const QuickLinks = () => (
   <div className="quick-links-1"> 
     <a href="#contact">Contact Us</a>
     <a href="#about">About Us</a>
-    <a href="#about">Mission</a>
+    <a href="#mission">Mission</a>
   </div>
 
   {/* <div className="quick-links-1"> 
