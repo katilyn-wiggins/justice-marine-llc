@@ -40,10 +40,10 @@ const HomePage = () => (
       <div className="sqaure2 about-p"><img src={Ebarge3} alt="barge" className="picture" /></div>
     </div>
     <div className="squares-container">
-      <div className="sqaure2 services-p"><img src={oyster} alt="oyster bed" className="picture" /></div>
-      <div className="square1 services">
+    <div className="square1 services">
         <ServicesBlurb /> 
       </div>
+      <div className="sqaure2 services-p"><img src={oyster} alt="oyster bed" className="picture" /></div>
     </div>
     <div className="squares-container">
       <div className="square1 location">

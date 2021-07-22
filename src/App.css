@@ -40,6 +40,8 @@ body .header {
   display: inline-block;
   position: relative;
   width: 100%;
+  height: 500px;
+  margin-bottom: 0;
 }
 
 .image-button-container .desc {
@@ -98,8 +100,9 @@ body .header {
 }
 
 .barge {
-  height: 500px;
+  height: 100%;
   border-radius: 2px;
+  object-fit: cover;
 }
 
 .back-to-top {
@@ -156,6 +159,10 @@ body .header {
 .sqaure2 {
   display: grid;
   height: 400px;
+}
+
+.services-p {
+  order: -1;
 }
 
 .main-blurb {
@@ -347,6 +354,10 @@ h3 {
   .top-links {
     display: none;
   }
+
+  .services-p {
+    order: 1;
+  }
 }
 
 /* Position and sizing of burger button */
@@ -356,6 +367,7 @@ h3 {
   height: 30px;
   left: 36px;
   top: 36px;
+  background-color: transparent;
 }
 
 /* Color/shape of burger icon bars */
