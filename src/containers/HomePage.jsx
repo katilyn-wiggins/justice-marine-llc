@@ -3,10 +3,10 @@ import React from 'react';
 import ServicesBlurb from '../components/blurbs/ServicesBlurb';
 import Header from './Header'
 // import barge1 from '../images/barge1.jpg';
-import barge2 from '../images/barge2.jpg';
+// import barge2 from '../images/barge2.jpg';
 import Ebarge2 from '../images/dbarges/Ebarge2.JPG';
 import Ebarge3 from '../images/dbarges/Ebarge3.JPG';
-import barge3 from '../images/barge3.jpg';
+// import barge3 from '../images/barge3.jpg';
 import oyster from '../images/oyster.jpeg';
 import map from '../images/map.jpeg';
 import email from '../images/icons/email.png';
@@ -16,20 +16,17 @@ import AboutBlurb from '../components/blurbs/AboutBlurb';
 // import ContactBlurb from '../components/blurbs/ContactBlurb';
 import LocationBlurb from '../components/blurbs/LocationBlurb';
 
-const onLogoClick = () => {
-  window.location.replace()
-}
 
 const HomePage = () => (
   <div className="home-page">
     <Header />
     <div className="banner" >
-   CONTACT US NOW:  
+        CONTACT US NOW:  
       <a href="tel:336-848-5477" > <img src={phone} alt="phone" className="icon"/></a> 
       <a href="mailto:justicemarinellc@gmail.com" ><img src={email} alt="phone" className="icon"/></a> 
     </div> 
     <div className="image-button-container">
-      <img src={Ebarge2} alt="barge" className="barge" />
+     <a href="/"><img src={Ebarge2} alt="barge" className="barge" /></a> 
       <div className="desc">For All Marine Services Contact Our Local Dispatch Office 24/7/365</div>
       <a href="tel:336-848-5477" className="call">Call Us</a>
       <a href="mailto:justicemarinellc@gmail.com" className="email">Email Us</a>
