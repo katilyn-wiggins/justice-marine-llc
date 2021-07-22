@@ -8,7 +8,7 @@ const Header = () => (
         <a href="/#logo">Gallery</a>
       </div>
       <div className="logo-container">
-        <img className="home-logo" id="logo" alt="Justice Marine LLC" src={logo} />
+      <a href="/"><img className="home-logo" id="logo" alt="Justice Marine LLC" src={logo} /></a>
       </div>
       <div className="top-links">
         <a href="/services">Services</a>
