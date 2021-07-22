@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../logo.png';
 
-
 const Header = () => (
     <div className="header">
       <div className="top-links">
@@ -12,7 +11,7 @@ const Header = () => (
         <img className="home-logo" id="logo" alt="Justice Marine LLC" src={logo} />
       </div>
       <div className="top-links">
-        <a href="/#services">Services</a>
+        <a href="/services">Services</a>
         <a href="/#contact">Contact</a>
       </div>
     </div>

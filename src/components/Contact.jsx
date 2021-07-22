@@ -4,7 +4,7 @@ import '../App.css'
 const Contact = () => (
   <>
     <h1 id="contact">Contact</h1>
-    <a className="email" alt="email link" href="mailto:katilynswiggins@gmail.com">katilynswiggins@gmail.com</a>
+    <a className="email" alt="email link" href="mailto:justicemarinellc@gmail.com">justicemarinellc@gmail.com</a>
   </>
 );
 

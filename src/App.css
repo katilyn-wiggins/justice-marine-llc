@@ -21,9 +21,35 @@ body .header {
   flex: 1;
   padding-bottom: 10px;
   padding-top: 5px;
+  max-height: 200px;
 }
 
-.header .logo-container {
+/* .header {
+  overflow: hidden;
+} */
+
+/* @media screen and (max-width: 600px) {
+  .header a:not(:second-child) {
+    display: none;
+  }
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+} */
+
+/* @media screen and (max-width: 600px) {
+  .header.responsive {
+    position: relative;
+  }
+  .header.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+} */
+
+.header .top-links {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -147,6 +173,7 @@ body .header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: none;
 }
 
 .square1 {
@@ -276,4 +303,68 @@ h3 {
 
 .picture {
   height: 400px;
+}
+
+/* services page  */
+
+.barge-services {
+  height: 100%;
+  object-fit: cover;
+}
+
+.desc-services {
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: transparent;
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-kerning: auto;
+}
+
+.image-button-container-services {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+/* banner */
+.banner {
+  font-weight: bold;
+  color: navy;
+  text-align: right;
+  height: 2.5em;
+}
+
+.banner,
+.banner a,
+.banner span,
+.icon {
+  background-color: navy;
+  color: #fafafa;
+}
+
+.banner span {
+  text-align: right;
+  font-size: 12px;
+}
+
+.icon {
+  width: 30px;
+  padding-right: 10px;
+
+  /* width: 2em; */
+  /* padding: 8px; */
+  text-align: right;
+  padding-top: 5px;
+  /* justify-content: right; */
 }
