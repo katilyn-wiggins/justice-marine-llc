@@ -16,7 +16,7 @@ export default class Hamburger extends React.Component {
         <a id="gallery" className="menu-item" href="/gallery">Gallery</a>
         <a id="services" className="menu-item" href="/services">Services</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="/">Settings</a>
+        {/* <a onClick={ this.showSettings } className="menu-item--small" href="/">Settings</a> */}
       </Menu>
     );
   }
