@@ -27,11 +27,11 @@ const Services = () => (
       <div className="sqaure2"><img src={rocks} alt="barge" className="picture" /></div>
     </div>
     <div className="squares-container">
-      <div className="sqaure2"><img src={oyster} alt="oyster bed" className="picture" /></div>
       <div className="square1 blurbs-container">
         <h3>Oyster Bed Protection</h3>
         <p>Distribution of materials at location to ensure a level bed is acheived underwater for oyster spat</p> 
       </div>
+      <div className="sqaure2 oyster-p"><img src={oyster} alt="oyster bed" className="picture" /></div>
     </div>
     <div className="squares-container">
       <div className="square1 blurbs-container">
@@ -41,11 +41,12 @@ const Services = () => (
       <div className="sqaure2"><img src={barge3} alt="map of new orleans" className="picture" /></div>
     </div>
     <div className="squares-container">
-    <div className="sqaure2"><img src={demolition} alt="map of new orleans" className="picture" /></div>
-      <div className="square1 blurbs-container">
+    <div className="square1 blurbs-container">
         <h3>Demolition</h3>
         <p>Shearing of bridge piles and supports via crane and tooling</p> 
       </div>
+    <div className="sqaure2 demolition-p"><img src={demolition} alt="crane" className="picture" /></div>
+      
      
     </div>
     <div className="squares-container">
