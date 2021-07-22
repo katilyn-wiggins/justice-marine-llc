@@ -24,7 +24,7 @@ const QuickLinks = () => (
 
   <div className="quick-links-1"> 
     <a href="#logo"><img src={logo} alt="logo" className="footer-logo"/></a>
-    <a href="mailto:katilynswiggins@gmail.com">Email</a>
+    <a href="mailto:justicemarinellc@gmail.com">Email</a>
   </div>
 
   </div>
