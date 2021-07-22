@@ -34,22 +34,22 @@ const HomePage = () => (
       <a href="mailto:justicemarinellc@gmail.com" className="email">Email Us</a>
     </div>
     <div className="squares-container">
-      <div className="square1">
+      <div className="square1 about">
         <AboutBlurb /> 
       </div>
-      <div className="sqaure2"><img src={Ebarge3} alt="barge" className="picture" /></div>
+      <div className="sqaure2 about-p"><img src={Ebarge3} alt="barge" className="picture" /></div>
     </div>
     <div className="squares-container">
-      <div className="sqaure2"><img src={oyster} alt="oyster bed" className="picture" /></div>
-      <div className="square1">
+      <div className="sqaure2 services-p"><img src={oyster} alt="oyster bed" className="picture" /></div>
+      <div className="square1 services">
         <ServicesBlurb /> 
       </div>
     </div>
     <div className="squares-container">
-      <div className="square1">
+      <div className="square1 location">
         <LocationBlurb /> 
       </div>
-      <div className="sqaure2"><img src={map} alt="map of new orleans" className="picture" /></div>
+      <div className="sqaure2 location-p"><img src={map} alt="map of new orleans" className="picture" /></div>
     </div>
     <Footer />
     <a className="back-to-top" alt="top of page" href="#logo">Back to Top</a>
