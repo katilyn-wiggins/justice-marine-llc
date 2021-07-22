@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from './Header'
-import barge3 from '../images/barge3.jpg';
 import barge4 from '../images/barge4.jpg';
 import Ebarge3 from '../images/dbarges/Ebarge3.JPG';
 import Footer from './Footer'; 
