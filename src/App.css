@@ -418,4 +418,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .header {
   width: 100%;
+  margin-top: 2%;
 }
