@@ -8,10 +8,12 @@ import demolition from '../images/demolition.jpg';
 import dock from '../images/dock.jpg';
 import rocks from '../images/rocks.jpg';
 import Footer from './Footer'; 
+import Hamburger from '../components/Hamburger';
 
 
 const Services = () => (
   <div className="home-page">
+    <Hamburger />
     <Header />
     <div className="image-button-container-services">
       <img src={barge4} alt="barge" className="barge-services" />
