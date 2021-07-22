@@ -15,10 +15,12 @@ import Footer from './Footer';
 import AboutBlurb from '../components/blurbs/AboutBlurb';
 // import ContactBlurb from '../components/blurbs/ContactBlurb';
 import LocationBlurb from '../components/blurbs/LocationBlurb';
+import Hamburger from '../components/Hamburger';
 
 
 const HomePage = () => (
   <div className="home-page">
+    <Hamburger /> 
     <Header />
     <div className="banner" >
         CONTACT US NOW:  
