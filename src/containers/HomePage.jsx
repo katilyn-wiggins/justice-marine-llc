@@ -26,7 +26,7 @@ const HomePage = () => (
       <a href="mailto:justicemarinellc@gmail.com" ><img src={email} alt="phone" className="icon"/></a> 
     </div> 
     <div className="image-button-container">
-     <a href="/"><img src={Ebarge2} alt="barge" className="barge" /></a> 
+     <img src={Ebarge2} alt="barge" className="barge" />
       <div className="desc">For All Marine Services Contact Our Local Dispatch Office 24/7/365</div>
       <a href="tel:336-848-5477" className="call">Call Us</a>
       <a href="mailto:justicemarinellc@gmail.com" className="email">Email Us</a>
