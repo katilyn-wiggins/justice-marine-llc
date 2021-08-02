@@ -23,8 +23,9 @@ const QuickLinks = () => (
   </div>
 
   <div className="quick-links-1"> 
-    <a href="#logo"><img src={logo} alt="logo" className="footer-logo"/></a>
+    {/* <a href="#logo"><img src={logo} alt="logo" className="footer-logo"/></a> */}
     <a href="mailto:justicemarinellc@gmail.com">justicemarinellc@gmail.com</a>
+    <p>partners with Marin Subsea</p>
   </div>
 
   </div>

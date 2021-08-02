@@ -16,13 +16,12 @@ const HomePage = () => (
     <Header />
     <div className="banner" >
         CONTACT US NOW:  
-      <a href="tel:336-848-5477">336-848-5477</a> 
+      <a href="tel:504-527-1555">504-527-1555</a> 
       <a href="mailto:justicemarinellc@gmail.com" >justicemarinellc@gmail.com</a> 
     </div> 
     <div className="image-button-container">
-     {/* <img src={Ebarge2} alt="barge" className="barge" /> */}
       <div className="desc">For All Marine Services Contact Our Local Dispatch Office 24/7/365</div>
-      <a href="tel:336-848-5477" className="call">Call Us</a>
+      <a href="tel:504-527-1555" className="call">Call Us</a>
       <a href="mailto:justicemarinellc@gmail.com" className="email">Email Us</a>
     </div>
     <div className="squares-container">
