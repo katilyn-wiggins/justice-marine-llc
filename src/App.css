@@ -40,8 +40,13 @@ body .header {
   display: inline-block;
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 400px;
   margin-bottom: 0;
+  background-image: url('../src/images/barge4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 99999px rgba(123, 162, 206, 0.9);
 }
 
 .image-button-container .desc {
@@ -52,9 +57,12 @@ body .header {
   padding-left: 10%;
   padding-right: 10%;
   background-color: transparent;
-  color: #fafafa;
+  color: white;
+  /* -webkit-text-stroke: 1px rgb(221, 218, 218); */
+  /* text-shadow: 1px 1px 0 grey, -1px -1px 0 grey, 1px -1px 0 grey,
+    -1px 1px 0 grey, 1px 1px 0 grey; */
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: 3em;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -97,12 +105,14 @@ body .header {
   justify-content: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .barge {
   height: 100%;
   border-radius: 2px;
   object-fit: cover;
+  z-index: -1;
 }
 
 .back-to-top {
@@ -192,6 +202,7 @@ body .header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: navy;
 }
 
 .quick-links-1 {
@@ -202,7 +213,14 @@ body .header {
   height: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 7px;
+  /* margin-top: 7px; */
+  background-color: navy;
+}
+
+.quick-links-1 a {
+  background-color: navy;
+  color: #fafafa;
+  font-weight: bold;
 }
 
 .top-links {
@@ -248,12 +266,15 @@ a {
 }
 
 .footer-logo {
-  width: 30px;
+  width: 60px;
+  z-index: 1;
+  background-color: transparent;
 }
 
 .footer {
   height: 100px;
   margin-top: 15px;
+  background-color: navy;
   /* border-top: 1px solid #ebebeb; */
 }
 
@@ -273,15 +294,15 @@ a {
 }
 
 ul {
-  font-size: 1.55em;
+  font-size: 1.2em;
 }
 
 p {
-  font-size: 1.55em;
+  font-size: 1.2em;
 }
 
 .container-email {
-  font-size: 1.55em;
+  font-size: 1.2em;
 }
 
 h3 {
@@ -298,6 +319,7 @@ h3 {
 .barge-services {
   height: 100%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .desc-services {
@@ -323,6 +345,13 @@ h3 {
   position: relative;
   width: 100%;
   height: 250px;
+  background-image: url('../src/images/barge4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 99999px rgba(152, 165, 180, 0.7);
+  z-index: 2;
+  /* line-height: 250px; */
 }
 
 /* banner */
@@ -331,30 +360,37 @@ h3 {
   color: navy;
   text-align: right;
   height: 2.5em;
+  line-height: 2.5em;
+  padding-right: 0.33%;
+  font-size: 14px;
 }
 
 .banner,
-.banner a,
-.banner span,
-.icon {
+.banner a {
   background-color: navy;
   color: #fafafa;
 }
 
-.banner span {
-  text-align: right;
-  font-size: 12px;
+.banner a {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
-.icon {
-  width: 30px;
-  padding-right: 10px;
+.gallery-1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
-  /* width: 2em; */
-  /* padding: 8px; */
-  text-align: right;
-  padding-top: 5px;
-  /* justify-content: right; */
+.gallery-1 h3 {
+  text-align: center;
+}
+
+.gallery-1 p {
+  font-size: 20px;
+  width: 70%;
 }
 
 /* hamburger */
@@ -375,6 +411,14 @@ h3 {
   .demolition-p {
     order: 1;
   }
+
+  .gallery-1 {
+    flex-direction: column;
+  }
+
+  .image-button-container .desc {
+    font-size: 2em;
+  }
 }
 
 /* Position and sizing of burger button */
@@ -384,7 +428,6 @@ h3 {
   height: 30px;
   left: 36px;
   top: 36px;
-  background-color: transparent;
 }
 
 /* Color/shape of burger icon bars */
@@ -394,7 +437,7 @@ h3 {
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: navy;
 }
 
 /* Position and sizing of clickable cross button */
@@ -431,7 +474,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: #f8f7e7;
   padding: 0.8em;
 }
 
@@ -465,23 +508,46 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin-bottom: 40px;
 }
 
-.gallery-1 {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.gallery-1 h3 {
-  text-align: center;
-}
-
-.gallery-1 p {
-  font-size: 20px;
-  width: 70%;
-}
-
 .gallery-wrapper .footer {
   border-top: 1px solid #ebebeb;
+}
+
+.about-page p {
+  font-size: 16px;
+}
+
+.equipment-desc {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.equipment-desc li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-desc {
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.services-desc li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-desc .detail {
+  font-size: 12px;
 }

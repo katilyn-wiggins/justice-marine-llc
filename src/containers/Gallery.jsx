@@ -10,20 +10,32 @@ const Gallery = () => (
   <div className="gallery-wrapper">
   <Hamburger /> 
   <Header /> 
+  <div className="image-button-container-services">
+      <div className="desc-services">Equipment</div>
+    </div>
   <div className="gallery-1">
+    <h3>Evo 1</h3>
+    <div className="carousel">
+      <Carousel2 /> 
+    </div>
+    <ul className="equipment-desc">
+      <li>Self-propelled, jet-driven barge</li>
+      <li>90ft length, 24ft bredth, 3ft draft(fully loaded)</li>
+      <li>100T deck load</li>
+      <li>A-frame with 40T lifting capacity</li>
+      <li>Dual sput anchoring system</li>
+    </ul>
+    </div>
+
+    <div className="gallery-1">
     <h3>Accomodation Barge</h3>
     <div className="carousel">
       <Carousel /> 
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quasi officiis dolorum optio laudantium exercitationem cumque molestiae? Quisquam soluta facere cum dolor quasi, ut voluptatibus. Doloremque odit aut maiores. Quis?</p>
-    </div>
-
-    <div className="gallery-1">
-    <h3>Barge 2</h3>
-    <div className="carousel">
-      <Carousel2 /> 
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quasi officiis dolorum optio laudantium exercitationem cumque molestiae? Quisquam soluta facere cum dolor quasi, ut voluptatibus. Doloremque odit aut maiores. Quis?</p>
+    <ul className="equipment-desc">
+      <li>100ft length, 24ft breadth</li>
+      <li>Can sleep 9 people, with large office space and galley</li>
+    </ul>
     </div>
     <Footer />
     <a className="back-to-top" alt="top of page" href="#logo">Back to Top</a>

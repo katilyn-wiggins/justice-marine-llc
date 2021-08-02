@@ -4,10 +4,11 @@ const ServicesBlurb = () => (
   <div className="blurbs-container" id="services">
     <h3>Services</h3>
     <ul>
-      <li>Material Placements</li>
-      <li>Oyster Bed Restoration</li>
-      <li>Driver Support Tooling</li>
-      <li>Demolition</li>
+      <li>Pipeline Works</li>
+      <li>Inshore Oilfield Support</li>
+      <li>Driver Support</li>
+      <li>Dredging and Material Recovery</li>
+      <li>Marine Construction</li>
       <li>And more...</li>
     </ul>
     <a href="/services" className="learn-more">Services</a>

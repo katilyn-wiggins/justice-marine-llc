@@ -12,11 +12,11 @@ export default class Hamburger extends React.Component {
     return (
       <Menu>
         <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/">About</a>
-        <a id="gallery" className="menu-item" href="/gallery">Gallery</a>
+        <a id="about" className="menu-item" href="/about">About</a>
+        <a id="gallery" className="menu-item" href="/equipment">Equipment</a>
         <a id="services" className="menu-item" href="/services">Services</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
-        {/* <a onClick={ this.showSettings } className="menu-item--small" href="/">Settings</a> */}
+        <a onClick={ this.showSettings } className="menu-item--small" href="/">Settings</a>
       </Menu>
     );
   }
