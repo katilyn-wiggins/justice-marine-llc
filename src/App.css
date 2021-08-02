@@ -365,7 +365,7 @@ h3 {
   height: 2.5em;
   line-height: 2.5em;
   padding-right: 0.33%;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .banner,
@@ -421,6 +421,10 @@ h3 {
 
   .image-button-container .desc {
     font-size: 2em;
+  }
+
+  .banner {
+    text-align: center;
   }
 }
 
