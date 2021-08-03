@@ -19,7 +19,7 @@ const QuickLinks = () => (
   <div className="quick-links-1"> 
     <a href="mailto:justicemarinellc@gmail.com">justicemarinellc@gmail.com</a>
     <p>Partners with: </p>
-    <a href="https://www.marinsubsea.com/" rel="noreferrer" target="_blank"><img src={marin} alt="marin-logo" className="marin"/></a>
+    <a href="https://www.marinsubsea.com/"><img src={marin} alt="marin-logo" className="marin"/></a>
   </div>
 
   </div>
