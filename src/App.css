@@ -362,8 +362,8 @@ h3 {
 
 .banner,
 .banner a {
-  background-color: white;
-  color: #b1232a;
+  background-color: #fafafa;
+  color: #0d346d;
 }
 
 .banner a {
@@ -599,7 +599,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   text-align: center;
   line-height: 100px;
   margin-bottom: 0;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   text-decoration: underline;
 }
 

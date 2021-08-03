@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Header from './Header'
 import Ebarge3 from '../images/dbarges/Ebarge3.JPG';
 import Footer from './Footer'; 
@@ -12,10 +11,12 @@ const About = () => (
     <Header />
     <div className="image-button-container-services">
       {/* <img src={barge4} alt="barge" className="barge-services" /> */}
-      <div className="desc-services">About Us</div>
+      {/* <div className="desc-services">About Us</div> */}
     </div>
     <div className="squares-container">
       <div className="blurbs-container about-page">
+      <h3 className="services-header">About Us:</h3>
+
         <p>Justice Marine, LLC was created with the intent to bring the latest technology and engineering
         comprehension to the inshore marine works industry. Our goal is to provide clients with timely solutions
         that are financially competitive. Founded by Naval Architects, our technology and methods are adaptive
