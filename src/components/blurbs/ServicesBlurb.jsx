@@ -3,7 +3,7 @@ import React from 'react';
 const ServicesBlurb = () => (
   <div className="blurbs-container" id="services">
     <h3>Services</h3>
-    <ul>
+    <ul className="services-blurb-desc">
       <li>Pipeline Works</li>
       <li>Inshore Oilfield Support</li>
       <li>Driver Support</li>

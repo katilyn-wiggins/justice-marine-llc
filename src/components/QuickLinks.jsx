@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css'
+import marin from '../images/marin-logo.png'
 
 const QuickLinks = () => (
   <div className="quick-links-container">
@@ -17,7 +18,8 @@ const QuickLinks = () => (
 
   <div className="quick-links-1"> 
     <a href="mailto:justicemarinellc@gmail.com">justicemarinellc@gmail.com</a>
-    <p>Partners with Marin Subsea</p>
+    <p>Partners with: </p>
+    <a href="https://www.marinsubsea.com/" rel="noreferrer" target="_blank"><img src={marin} alt="marin-logo" className="marin"/></a>
   </div>
 
   </div>

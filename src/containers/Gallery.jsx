@@ -28,11 +28,11 @@ const Gallery = () => (
     </div>
 
     <div className="gallery-1">
-    <h3>Accomodation Barge</h3>
+    <h3 className="barge-margin">Accomodation Barge</h3>
     <div className="carousel">
       <Carousel /> 
     </div>
-    <ul className="equipment-desc">
+    <ul className="equipment-desc1">
       <li>100ft length, 24ft breadth</li>
       <li>Can sleep 9 people, with large office space and galley</li>
     </ul>
