@@ -35,7 +35,7 @@ const HomePage = () => (
     <div className="square1 services">
     <LocationBlurb /> 
       </div>
-      <div className="sqaure2 services-p"><img src={boat} alt="oyster bed" className="picture" /></div>
+      <div className="sqaure2 services-p"><img src={boat} alt="boat on water" className="picture" /></div>
     </div>
     <div className="squares-container">
       <div className="square1 location">
