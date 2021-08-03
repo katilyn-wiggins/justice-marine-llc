@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header'
 import phone from '../images/phone.png';
-import Ebarge3 from '../images/dbarges/Ebarge3.JPG';
 import Footer from './Footer'; 
 import Hamburger from '../components/Hamburger';
 
