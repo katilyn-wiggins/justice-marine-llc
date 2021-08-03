@@ -23,7 +23,7 @@ const Gallery = () => (
       <li>90ft length, 24ft bredth, 3ft draft(fully loaded)</li>
       <li>100T deck load</li>
       <li>A-frame with 40T lifting capacity</li>
-      <li>Dual sput anchoring system</li>
+      <li>Dual spud anchoring system</li>
     </ul>
     </div>
 

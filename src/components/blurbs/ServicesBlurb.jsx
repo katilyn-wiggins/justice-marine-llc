@@ -6,7 +6,7 @@ const ServicesBlurb = () => (
     <ul className="services-blurb-desc">
       <li>Pipeline Works</li>
       <li>Inshore Oilfield Support</li>
-      <li>Driver Support</li>
+      <li>Diver Support</li>
       <li>Dredging and Material Recovery</li>
       <li>Marine Construction</li>
       <li>And more...</li>
