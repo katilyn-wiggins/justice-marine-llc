@@ -403,8 +403,6 @@ h3 {
   width: 50vw;
 }
 
-/* hamburger */
-
 @media only screen and (max-width: 768px) {
   .top-links {
     display: none;
@@ -465,7 +463,6 @@ h3 {
 .bm-cross-button {
   height: 24px;
   width: 24px;
-  z-index: 2;
 }
 
 /* Color/shape of close button cross */
@@ -496,13 +493,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #f8f7e7;
+  /* color: #f8f7e7; */
   padding: 0.8em;
+  background-color: #fafafa;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
+  padding: 0.8em;
+  color: #0b1b34;
+  font-weight: bold;
 }
 
 /* Styling of overlay */
