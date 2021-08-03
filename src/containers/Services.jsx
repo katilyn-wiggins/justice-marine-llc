@@ -9,9 +9,8 @@ const Services = () => (
   <div className="home-page">
     <Hamburger />
     <Header />
-    <div className="image-button-container-services">
-      <div className="desc-services">Services</div>
-    </div>
+    <div className="image-button-container-services"></div>
+    <h3 className="services-header">Services</h3>
     <div className="services-container">
       <ul className="services-desc">
         <li>Diver support and tooling: <span className="detail">Maxi Vac, Hydro Vac, High mass impac jet, mono jets</span></li>

@@ -12,13 +12,14 @@ import Hamburger from '../components/Hamburger';
 
 const HomePage = () => (
   <div className="home-page">
-    <Hamburger /> 
-    <Header />
-    <div className="banner" >
+        <div className="banner" >
         CONTACT US NOW:  
       <a href="tel:504-527-1555">504-527-1555</a> 
       <a href="mailto:justicemarinellc@gmail.com" >justicemarinellc@gmail.com</a> 
     </div> 
+    <Hamburger /> 
+    <Header />
+
     <div className="image-button-container">
       <div className="desc">For All Marine Services Contact Our Local Dispatch Office 24/7/365</div>
       <a href="tel:504-527-1555" className="call">Call Us</a>

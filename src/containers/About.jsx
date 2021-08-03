@@ -22,7 +22,7 @@ const About = () => (
         to a wide range of projects.</p>
         <p>To better suit our clients needs, we have partnered with Marin Subsea to offer the latest technology in
         dredging. Excavation, and material placement.</p>
-        <p>Please give us a call to discuss your needs. You can also visit our <a href="/services">Services</a> tab and visit our partner’s website, <a href="www.marinsubsea.com" target="_blank">www.marinsubsea.com</a>, for more information.</p>
+        <span>Please give us a call to discuss your needs. You can also visit our <a href="/services">Services</a> tab and visit our partner’s website, <a href="www.marinsubsea.com" target="_blank">www.marinsubsea.com</a>, for more information.</span>
       </div>
       <div className="contact2"><img src={Ebarge3} alt="barge" className="picture" /></div>
     </div>
