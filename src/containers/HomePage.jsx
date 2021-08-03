@@ -26,19 +26,19 @@ const HomePage = () => (
     </div>
     <div className="squares-container">
       <div className="square1 about">
-        <AboutBlurb /> 
+        <ServicesBlurb /> 
       </div>
       <div className="sqaure2 about-p"><img src={Ebarge3} alt="barge" className="picture" /></div>
     </div>
     <div className="squares-container">
     <div className="square1 services">
-        <ServicesBlurb /> 
+    <LocationBlurb /> 
       </div>
       <div className="sqaure2 services-p"><img src={dock} alt="oyster bed" className="picture" /></div>
     </div>
     <div className="squares-container">
       <div className="square1 location">
-        <LocationBlurb /> 
+        <AboutBlurb /> 
       </div>
       <div className="sqaure2 location-p"><img src={map} alt="map of new orleans" className="picture" /></div>
     </div>

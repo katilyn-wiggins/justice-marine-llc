@@ -327,11 +327,9 @@ h3 {
 
 .desc-services {
   position: absolute;
-  bottom: 50%;
+  bottom: 40%;
   right: 0%;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   background-color: transparent;
   color: #fafafa;
   font-weight: bolder;
@@ -347,7 +345,7 @@ h3 {
   display: inline-block;
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 200px;
   background-image: url('../src/images/barge4.jpg');
   background-position: center;
   background-size: cover;
@@ -396,6 +394,15 @@ h3 {
   width: 70%;
 }
 
+.services-container {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
 /* hamburger */
 
 @media only screen and (max-width: 768px) {
@@ -426,6 +433,10 @@ h3 {
   .banner {
     text-align: center;
   }
+
+  .services-container {
+    width: 80vw;
+  }
 }
 
 /* Position and sizing of burger button */
@@ -435,11 +446,14 @@ h3 {
   height: 30px;
   left: 36px;
   top: 36px;
+  z-index: 5;
+  background-color: transparent;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;
+  z-index: 2;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -451,11 +465,12 @@ h3 {
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  z-index: 2;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: transparent;
 }
 
 /*
@@ -469,7 +484,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  /* background: #373a47; */
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -540,19 +555,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .services-desc {
-  font-size: 16px;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  font-size: 16px;
+  width: 100%;
+  align-items: center;
   height: 500px;
+  flex-wrap: wrap;
+  font-weight: bold;
 }
 
-.services-desc li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.services-desc li:hover {
+  color: navy;
 }
 
 .services-desc .detail {
