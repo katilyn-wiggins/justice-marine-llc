@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header'
-import Ebarge3 from '../images/dbarges/Ebarge3.JPG';
+import bridge from '../images/bridge.jpg';
 import Footer from './Footer'; 
 import Hamburger from '../components/Hamburger';
 
@@ -9,10 +9,10 @@ const About = () => (
   <div className="home-page">
     <Hamburger />
     <Header />
-    <div className="image-button-container-services">
+    {/* <div className="image-button-container-services"> */}
       {/* <img src={barge4} alt="barge" className="barge-services" /> */}
       {/* <div className="desc-services">About Us</div> */}
-    </div>
+    {/* </div> */}
     <div className="squares-container">
       <div className="blurbs-container about-page">
       <h3 className="services-header">About Us:</h3>
@@ -25,7 +25,7 @@ const About = () => (
         dredging. Excavation, and material placement.</p>
         <span>Please give us a call to discuss your needs. You can also visit our <a href="/services">Services</a> tab and visit our partner’s website, <a href="www.marinsubsea.com" target="_blank">www.marinsubsea.com</a>, for more information.</span>
       </div>
-      <div className="contact2"><img src={Ebarge3} alt="barge" className="picture" /></div>
+      <div className="contact2"><img src={bridge} alt="barge" className="picture" /></div>
     </div>
     <Footer />
     <a className="back-to-top" alt="top of page" href="#logo">Back to Top</a>

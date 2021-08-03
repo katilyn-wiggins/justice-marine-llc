@@ -147,6 +147,7 @@ body .header {
 
 .squares-container {
   display: grid;
+  /* height: 75vh; */
   /* added responsiveness */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-columns: 50% 50%; */
@@ -604,5 +605,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .phone {
-  height: 500px;
+  max-height: 500px;
+  min-height: 200px;
 }
