@@ -1,8 +1,8 @@
 import React from 'react';
 import ServicesBlurb from '../components/blurbs/ServicesBlurb';
 import Header from './Header'
-import dock from '../images/dock.jpg';
 import Ebarge3 from '../images/dbarges/Ebarge3.JPG';
+import boat from '../images/david-boat.png';
 import map from '../images/map.jpeg';
 import Footer from './Footer'; 
 import AboutBlurb from '../components/blurbs/AboutBlurb';
@@ -35,7 +35,7 @@ const HomePage = () => (
     <div className="square1 services">
     <LocationBlurb /> 
       </div>
-      <div className="sqaure2 services-p"><img src={dock} alt="oyster bed" className="picture" /></div>
+      <div className="sqaure2 services-p"><img src={boat} alt="oyster bed" className="picture" /></div>
     </div>
     <div className="squares-container">
       <div className="square1 location">
