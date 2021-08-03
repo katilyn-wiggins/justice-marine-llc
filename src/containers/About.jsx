@@ -28,7 +28,6 @@ const About = () => (
       <div className="contact2"><img src={bridge} alt="barge" className="picture" /></div>
     </div>
     <Footer />
-    {/* <a className="back-to-top" alt="top of page" href="#logo">Back to Top</a> */}
   </div>
 
 
