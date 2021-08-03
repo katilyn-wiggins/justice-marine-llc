@@ -74,7 +74,7 @@ body .header {
   bottom: 25%;
   right: 57%;
   width: 15%;
-  background-color: navy;
+  background-color: #0d346d;
   color: #fafafa;
   border-radius: 1.5em;
   text-transform: uppercase;
@@ -89,7 +89,7 @@ body .header {
   bottom: 25%;
   right: 27%;
   width: 15%;
-  background-color: navy;
+  background-color: #0d346d;
   color: #fafafa;
   border-radius: 1.5em;
   text-transform: uppercase;
@@ -202,7 +202,7 @@ body .header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: navy;
+  background-color: #0d346d;
 }
 
 .quick-links-1 {
@@ -213,7 +213,7 @@ body .header {
   font-size: 12px;
   text-align: center;
   /* margin-top: 7px; */
-  background-color: navy;
+  background-color: #0d346d;
 }
 
 .quick-links-1 a,
@@ -221,19 +221,9 @@ body .header {
   margin-top: 1em;
   align-items: center;
   justify-content: center;
-  background-color: navy;
+  background-color: #0d346d;
   color: #fafafa;
   font-weight: bold;
-}
-
-.top-links {
-  font-size: 15px;
-  display: flex;
-  flex-direction: row;
-  color: navy;
-  text-align: center;
-  padding-top: 50px;
-  text-decoration: none;
 }
 
 a {
@@ -277,7 +267,7 @@ a {
 .footer {
   height: 100px;
   margin-top: 15px;
-  background-color: navy;
+  background-color: #0d346d;
   /* border-top: 1px solid #ebebeb; */
 }
 
@@ -310,7 +300,7 @@ p {
 
 h3 {
   font-size: 3em;
-  color: navy;
+  color: #0d346d;
 }
 
 .picture {
@@ -358,7 +348,7 @@ h3 {
 /* banner */
 .banner {
   font-weight: bold;
-  color: navy;
+  color: #0d346d;
   text-align: right;
   height: 2.5em;
   line-height: 2.5em;
@@ -368,7 +358,7 @@ h3 {
 
 .banner,
 .banner a {
-  background-color: navy;
+  background-color: #0d346d;
   color: #fafafa;
 }
 
@@ -456,7 +446,7 @@ h3 {
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: navy;
+  background: #0d346d;
 }
 
 /* Position and sizing of clickable cross button */
