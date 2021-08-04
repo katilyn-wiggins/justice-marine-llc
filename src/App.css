@@ -439,14 +439,12 @@ h3 {
   height: 30px;
   left: 36px;
   top: 40px;
-  z-index: 5;
   background-color: transparent;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #b1232a;
-  z-index: 2;
 }
 
 /* Color/shape of burger icon bars on hover*/
