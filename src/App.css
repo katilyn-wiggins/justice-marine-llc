@@ -58,7 +58,7 @@ body .header {
   background-color: transparent;
   color: white;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -420,7 +420,7 @@ h3 {
   }
 
   .image-button-container .desc {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .banner {
@@ -428,7 +428,7 @@ h3 {
   }
 
   .services-container {
-    width: 80vw;
+    width: 90vw;
   }
 }
 
@@ -439,14 +439,12 @@ h3 {
   height: 30px;
   left: 36px;
   top: 40px;
-  z-index: 5;
   background-color: transparent;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #b1232a;
-  z-index: 2;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -572,7 +570,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 16px;
   width: 100%;
   align-items: center;
-  height: 500px;
   flex-wrap: wrap;
   font-weight: bold;
 }
