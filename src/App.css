@@ -58,7 +58,7 @@ body .header {
   background-color: transparent;
   color: white;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -420,7 +420,7 @@ h3 {
   }
 
   .image-button-container .desc {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .banner {
