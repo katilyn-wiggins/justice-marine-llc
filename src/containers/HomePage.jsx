@@ -21,9 +21,13 @@ const HomePage = () => (
     <Header />
 
     <div className="image-button-container">
-      <div className="desc">For All Marine Services Contact Our Local Dispatch Office 24/7/365</div>
+      <div className="desc">
+        For All Marine Services Contact Our Local Dispatch Office 24/7/365
+        </div>
+      <div className="contact-buttons">
       <a href="tel:504-527-1555" className="call">Call Us</a>
       <a href="mailto:justicemarinellc@gmail.com" className="email">Email Us</a>
+      </div>
     </div>
     <div className="squares-container">
       <div className="square1 about">
