@@ -21,7 +21,7 @@ const About = () => (
         comprehension to the inshore marine works industry. Our goal is to provide clients with timely solutions
         that are financially competitive. Founded by Naval Architects, our technology and methods are adaptive
         to a wide range of projects.</p>
-        <p>To better suit our clients needs, we have partnered with Marin Subsea to offer the latest technology in
+        <p>To better suit our clients needs, we have partnered with Marin TM Ltd to offer the latest technology in
         dredging, excavation, and material placement.</p>
         <span>Please give us a call to discuss your needs. You can also visit our <a href="/services">Services</a> tab and visit our partner’s website, <a href="https://www.marinsubsea.com">www.marinsubsea.com</a>, for more information.</span>
       </div>
