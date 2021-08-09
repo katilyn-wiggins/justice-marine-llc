@@ -9,10 +9,6 @@ const About = () => (
   <div className="home-page">
     <Hamburger />
     <Header />
-    {/* <div className="image-button-container-services"> */}
-      {/* <img src={barge4} alt="barge" className="barge-services" /> */}
-      {/* <div className="desc-services">About Us</div> */}
-    {/* </div> */}
     <div className="squares-container">
       <div className="blurbs-container about-page">
       <h3 className="services-header">About Us:</h3>
