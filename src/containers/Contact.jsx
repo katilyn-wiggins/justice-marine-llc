@@ -9,9 +9,6 @@ const Contact = () => (
   <div className="home-page">
     <Hamburger />
     <Header />
-    {/* <div className="image-button-container-services">
-      <div className="desc-services">Contact</div>
-    </div> */}
     <div className="squares-container">
       <div className="contact1 blurbs-container">
       <h3 className="services-header">Contact Us</h3>

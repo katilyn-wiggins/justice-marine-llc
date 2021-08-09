@@ -9,7 +9,6 @@ const Services = () => (
   <div className="home-page">
     <Hamburger />
     <Header />
-    {/* <div className="image-button-container-services"></div> */}
     <h3 className="services-header">Services</h3>
     <div className="services-container">
       <ul className="services-desc">
