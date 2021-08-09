@@ -14,7 +14,7 @@ const Gallery = () => (
       <div className="desc-services">Equipment</div>
     </div>
   <div className="gallery-1">
-    <h3>Evo 1</h3>
+    <h3>EVO 1</h3>
     <div className="carousel">
       <Carousel2 /> 
     </div>
