@@ -14,7 +14,7 @@ const Gallery = () => (
       <div className="desc-services">Equipment</div>
     </div>
   <div className="gallery-1">
-    <h3>EVO 1</h3>
+    <h3 className="evo">EVO 1</h3>
     <div className="carousel">
       <Carousel2 /> 
     </div>
@@ -34,7 +34,8 @@ const Gallery = () => (
     </div>
     <ul className="equipment-desc1">
       <li>100ft length, 24ft breadth</li>
-      <li>Can sleep 9 people, with large office space and galley</li>
+      <li>9 person sleeping capacity</li>
+      <li>Large office space and galley</li>
     </ul>
     </div>
     <Footer />
